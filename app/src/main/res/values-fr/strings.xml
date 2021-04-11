@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Projet Final</string>
+    <string name="Welcome"> Nouvelles de la BBC.</string>
+    <string name="loginMsg">Connexion:</string>
+    <string name="loginPrompt">Entrez vos informations de connexion</string>
+    <string name="password">Mot de passe:</string>
+    <string name="loginBtn">Connexion</string>
+    <string name="title">Favoris</string>
+    <string name="infoBtn">Cliquez ici pour information</string>
+    <string name="title_activity_nav_toolbar">NavToolbar</string>
+    <string name="navigation_drawer_open">Ouvrir Toolbar de navigation</string>
+    <string name="navigation_drawer_close">Fermer Navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">entete de Navigation</string>
+    <string name="action_settings">Parametres</string>
+
+    <string name="menu_home">domicile</string>
+    <string name="menu_gallery">Galerie</string>
+    <string name="menu_slideshow">Diaporama</string>
+
+    <string name="open">1</string>
+    <string name="close">0</string>
+    <string name="saved">Enregistrée</string>
+    <string name="pwPrompt">Mettre password ici</string>
+    <string name="nav_fav">"Allez au Favoris "</string>
+
+
+</resources>

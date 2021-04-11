@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/chatpage"
+        android:title="Chat Page"
+        android:icon="@drawable/stork"
+        android:orderInCategory="50"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/weather"
+        android:title="weather"
+        android:icon="@drawable/newstork"
+        android:orderInCategory="100"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/backtologin"
+        android:title="Back to login"
+        android:icon="@drawable/duck"
+        android:orderInCategory="150"
+        app:showAsAction="always"></item>
+
+
+
+
+
+
+</menu>

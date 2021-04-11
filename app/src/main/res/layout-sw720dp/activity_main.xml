@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--IMCOMPLETE. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="284dp"
+        android:layout_height="758dp"
+        android:layout_above="@+id/nav_favourites"
+        android:layout_marginBottom="25dp">
+
+
+    </ListView>
+
+    <Button
+        android:id="@+id/nav_favourites"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/nav_fav">
+
+    </Button>
+
+    <Button
+        android:id="@+id/helpBtn"
+        android:layout_width="50dp"
+        android:layout_height="43dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/ic_baseline_help_24"></Button>
+
+    <FrameLayout
+        android:layout_width="420dp"
+        android:layout_height="420dp"
+        android:layout_alignRight="@id/listView"
+        android:layout_marginStart="-284dp"
+        android:layout_toEndOf="@+id/listView"></FrameLayout>
+</RelativeLayout>
+
+
